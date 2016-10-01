@@ -1,0 +1,959 @@
+* {
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+
+
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+
+
+.container { width: 80%; margin: 0 auto; }
+.container-2 { width: 86.2%; margin: 0 auto; position: relative; }
+
+.main-container { width: 66.5%; margin: 0 auto; }
+
+
+
+header { 
+
+    width: 100%;
+    height: 1060px;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+header .menu {
+
+	width: 100%;
+	height: 240px;
+	overflow: hidden;
+	background-color: rgb(26, 29, 28);
+}
+
+header .menu h1 {
+
+    font-family: 'lora';
+    color: #FFF;
+    font-size: 73px;
+    text-transform: uppercase;
+    line-height: 220px;
+    float: left;
+    padding-left: 75px;
+}
+header .menu input {
+
+    float: right;
+    margin: 100px 100px 0 0;
+    height: 40px;
+    width: 295px;
+    padding: 5px;
+}
+
+header .menu .fa {
+
+    color: #1A1D1C;
+    font-size: 23px;
+    position: absolute;
+    right: 112px;
+    top: 108px;
+}
+
+.menu-2 {
+
+	width: 100%;
+	height: 100px;
+	background-color: #FFF8DC;
+	position: relative;
+    overflow: hidden;
+}
+
+
+.menu-2 .container-flex {
+
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-2 .container .container-flex div {
+
+     width: 15%;
+     height: 100%;
+     text-align: center;
+}
+
+.menu-2 .container .container-flex div a {
+
+    text-decoration: none;
+    font-size: 1.4em;
+    line-height: 100px;
+    color: #1A1D1C;
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+}
+.menu-2 .container .container-flex div .active {
+
+    background-color: #1A1D1C;
+    color: #FFF8DC;
+}
+.menu-2 .container .container-flex div a:hover {
+
+    background-color: #1A1D1C;
+    color: #FFF8DC;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+ 
+
+header .slider {
+
+	width: 100%;
+	height: 720px;
+    position: relative;
+
+}
+
+.type-1 {
+
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.type-1 div {
+
+    width: 33.2%;
+    height: 260px;
+    float: left;
+}
+
+
+
+.type-1 > div:nth-child(1) {
+
+    background-image: url(../images/mob-21.jpg);
+    background-size: cover;
+}
+
+
+.type-1 > div:nth-child(2) {
+
+    background-image: url(../images/mob-38.jpg);
+    background-size: cover;
+}
+
+
+.type-1 > div:nth-child(3) {
+
+    background-image: url(../images/mob-15.jpg);
+    background-size: cover;
+}
+
+
+
+
+.type-1 > div:nth-child(4) {
+
+    background-image: url(../images/mob-22.jpg);
+    background-size: cover;
+}
+
+
+.type-1 > div:nth-child(5) {
+
+    background-image: url(../images/mob-23.jpg);
+    background-size: cover;
+}
+
+
+
+.type-1 > div:nth-child(6) {
+
+    background-image: url(../images/mob-24.jpg);
+    background-size: cover;
+}
+
+
+
+.type-2 {
+
+	width: 100%;
+    height: 1170px;
+	overflow: hidden;
+}
+.head-p {
+
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+}
+
+.head-p > span {
+
+    margin: 0 auto;
+    color: #504F4F;
+    font-size: 90px;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    line-height: 110px;
+    height: 100px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    display: block;
+
+
+}
+
+
+.head-p > p {
+
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    color: #504F4F;
+    font-size: 26px;
+    font-family: 'Poiret One', cursive;
+    text-transform: capitalize;
+    height: 80px;
+    width: 90%;
+    line-height: 80px;
+}
+
+
+
+.type-2 > div:nth-child(2) {
+
+    width: 100%;
+    height: 540px;
+    overflow: hidden;
+    background-image: url(../images/mob-31.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.type-2 > div:nth-child(2) > div p {
+
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    color: #FFF8DC;
+    font-size: 26px;
+    font-family: poiret one;
+    text-transform: capitalize;
+    height: 135px;
+    width: 90%;
+    line-height: 159px;
+    font-weight: bold;
+
+
+}
+
+.type-2 > div:nth-child(2) > div .read {
+
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgba(255, 248, 220, 0.5);
+    background: none;
+}
+
+.type-2 > div:nth-child(2) > div .read button {
+
+    width: 200px;
+    height: 45px;
+    background: none;
+    font-family: 'lora', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    color: #FFF8DC;
+
+}
+
+
+
+.type-2 > div:nth-child(2) > div {
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+
+.type-2 .mob-type {
+
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -205px;
+    margin: 0 auto;
+}
+
+.type-2 .container-2 .mob-type > div {
+
+    width: 22.9%;
+    height: 380px;
+    margin: 10px;
+    background-color: #FFF8DC;
+    position: relative; 
+    border-width: 2px; 
+    border-style: solid; 
+    border-color: #DDDDDD; 
+    border-radius: 0px; 
+    overflow: hidden;
+}
+
+
+
+.type-2 .container-2 .mob-type > div > h3 {
+
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    padding: 5px;
+    line-height: 51px;
+    letter-spacing: 0.2em;
+    color: #5E6864;
+    text-transform: uppercase;
+}
+
+.type-2 .container-2 .mob-type > div > div:nth-of-type(1) {
+
+    width: 100%;
+    height: 220px;
+    background-image: url(../images/mob-43.jpg);
+    background-size: cover;
+
+}
+
+.type-2 .container-2 .mob-type > div:nth-child(2) > div:nth-of-type(1) {
+
+    background-image: url(../images/mob-28.png);
+    background-size: cover;
+}
+
+.type-2 .container-2 .mob-type > div:nth-child(3) > div:nth-of-type(1) {
+
+    background-image: url(../images/mob-37.jpg);
+    background-size: cover;
+}
+
+.type-2 .container-2 .mob-type > div:nth-child(4) > div:nth-of-type(1) {
+
+    background-image: url(../images/mob-29.jpg);
+    background-size: cover;
+}
+
+
+
+.type-2 .container-2 .mob-type > div > p {
+
+    text-align: center;
+    line-height: 24px;
+    padding-top: 15px;
+    font-family: 'Lora', serif;
+    text-transform: lowercase;
+    letter-spacing: 1.3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #5E6864;
+}
+
+.content {
+
+    width: 100%;
+    height: 940px;
+    background-color: #FFF8DC;
+    overflow: hidden;
+    margin-bottom: 100px;
+
+}
+
+.content > div {
+
+    width: 100%;
+    height: 260px;
+    background-color: #FFF;
+}
+
+.content > div span {
+
+    margin: 0 auto;
+    color: #504F4F;
+    font-size: 90px;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    line-height: 110px;
+    height: 100px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    display: block;
+
+}
+
+.content > div p {
+
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    color: #504F4F;
+    font-size: 26px;
+    font-family: 'Poiret One', cursive;
+    text-transform: capitalize;
+    height: 80px;
+    width: 90%;
+    line-height: 80px;
+}
+
+.content .team {
+
+    width: 65%;
+    height: 306px;
+    margin: 60px auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #FFF8DC
+}
+
+.content .team div {
+
+    width: 320px;
+    height: 285px;
+    margin: 10px;
+    position: relative;
+    border: 1px solid #B5B4B4;
+
+
+}
+.content .team div:nth-child(1) {
+
+    background-image: url(../images/mob-47.jpg);
+    background-size: cover;
+}
+
+.content .team div:nth-child(2) {
+
+    background-image: url(../images/mob-45.jpg);
+    background-size: cover;
+}
+
+.content .team div:nth-child(3) {
+
+    background-image: url(../images/mob-46.jpg);
+    background-size: cover;
+}
+
+.content > p:last-of-type {
+
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #B5B4B4;
+    text-transform: capitalize;
+}
+
+.content .numbers { 
+
+    margin: 0 auto; 
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+.content .numbers p {
+
+    display: inline;
+    border-left: 1px solid #B5B4B4;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 127px;
+    text-align: center;
+    font-family: 'lora', cursive;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #B5B4B4;
+}
+
+.content .numbers p:first-child {
+
+    display: inline;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 127px;
+    text-align: center;
+    font-family: 'lora', cursive;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #B5B4B4;
+}
+
+.content .read {
+
+    margin: 0 auto;
+    width: 120px;
+    height: 50px;
+}
+
+.content .read button {
+
+    width: 120px;
+    height: 50px;
+    background: none;
+    font-family: 'lora', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #B5B4B4;
+    color: #B5B4B4;
+
+}
+
+.about {
+
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    padding: 5px;
+    background-color: #FFF8DC;
+    border-top: 1px solid #B5B4B4;
+    border-bottom: 1px solid #B5B4B4;
+    margin-bottom: 100px;
+}
+.about .sell-1 {
+
+    width: 100%;
+    margin-top: 100px;
+    height: 265px;
+    overflow: hidden;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about .sell-2 {
+
+    width: 100%;
+    height: 265px;
+    overflow: hidden;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about .sell-1 .mob-sell {
+
+    width: 32.8%;
+    height: 260px;
+    border: 1px solid #B7C2CD;
+}
+.about .sell-1 .mob-sell > div:first-child {
+
+    width: 53.1%;
+    height: 246px;
+    float: left;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+
+.about .sell-1 .mob-sell > div:last-child {
+
+    width: 44%;
+    height: 255px;
+    float: right;
+    margin: 1px;
+}
+
+.about .sell-1 div:nth-child(1) div:nth-child(1) {
+
+    background-image: url(../images/mob-43.jpg);
+    background-size: cover;
+
+}
+
+.about .sell-1 div:nth-child(2) div:nth-child(1) {
+
+        background-image: url(../images/mob-5.jpg);
+        background-size: cover;
+}
+
+.about .sell-1 div:nth-child(3) div:nth-child(1) {
+
+        background-image: url(../images/mob-3.jpg);
+        background-size: cover;
+}
+
+
+.about .sell-1 .mob-sell div:nth-child(2) p {
+
+    font-family: lora;
+    color: #B5B4B4;
+    text-align: center;
+    padding: 10px;
+}
+
+.about .sell-1 .mob-sell .read-2 {
+
+    margin: 0 auto;
+    width: 120px;
+    height: 50px;
+}
+.about .sell-1 .mob-sell .read-2 button {
+
+    width: 120px;
+    height: 50px;
+    background: none;
+    font-family: 'lora', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #1ECE26;
+    color: #1ECE26;
+}
+
+
+.about .full-list {
+
+    width: 100%;
+    height: 240px;
+
+}
+
+.about .full-list h2 {
+
+    text-align: center;
+    line-height: 145px;
+    font-family: poiret one;
+    color: #B5BAC1;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+
+}
+
+.about .full-list .read-2 {
+
+    margin: 0 auto;
+    width: 120px;
+    height: 50px;
+}
+
+.about .full-list .read-2 button {
+
+    width: 120px;
+    height: 50px;
+    background: none;
+    font-family: 'lora', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #B5B4B4;
+    color: #B5B4B4;
+}
+
+.about .sell-2 .mob-sell {
+
+    width: 32.8%;
+    height: 260px;
+    border: 1px solid #B7C2CD;
+}
+.about .sell-2 .mob-sell > div:first-child {
+
+    width: 53.1%;
+    height: 246px;
+    float: left;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+
+.about .sell-2 .mob-sell > div:last-child {
+
+    width: 44%;
+    height: 255px;
+    float: right;
+    margin: 1px;
+}
+
+.about .sell-2 div:nth-child(1) div:nth-child(1) {
+
+    background-image: url(../images/mob-8.jpg);
+    background-size: cover;
+
+}
+
+.about .sell-2 div:nth-child(2) div:nth-child(1) {
+
+        background-image: url(../images/mob-48.jpg);
+        background-size: cover;
+}
+
+.about .sell-2 div:nth-child(3) div:nth-child(1) {
+
+        background-image: url(../images/mob-49.jpg);
+        background-size: cover;
+}
+
+
+.about .sell-2 .mob-sell div:nth-child(2) p {
+
+    font-family: lora;
+    color: #B5B4B4;
+    text-align: center;
+    padding: 10px;
+}
+
+.about .sell-2 .mob-sell .read-2 {
+
+    margin: 0 auto;
+    width: 120px;
+    height: 50px;
+}
+.about .sell-2 .mob-sell .read-2 button {
+
+    width: 120px;
+    height: 50px;
+    background: none;
+    font-family: 'lora', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #1ECE26;
+    color: #1ECE26;
+}
+
+.service {
+
+    width: 100%;
+    height: 780px;
+    background-color: #FFF8DC;
+    margin-bottom: 100px;
+}
+
+.service > p {
+  
+    color: #B5B6BE;
+    text-align: center;
+    font-family: "poiret one";
+    text-transform: capitalize;
+    padding: 65px;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.service .icon-f {
+
+    width: 75%;
+    margin: 60px auto;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+}
+
+.service .icon-f div {
+
+    width: 24%;
+    height: 260px;
+    margin: 5px;
+
+}
+
+.service .icon-f div .fa {
+
+    margin: 20px auto;
+    font-size: 77px;
+    height: 120px;
+    width: 120px;
+    display: block;
+    border: 3px solid #B5B6BE;
+    border-radius: 50%;
+    line-height: 115px;
+    text-align: center;
+    color: #504F4F; 
+}
+
+.service .icon-f p {
+
+    text-align: center;
+    font-family: 'lora', cursive;
+    font-size: 17px;
+    color: #B5B6BE;
+    line-height: 26px;
+    padding-top: 17px;
+    width: 234px;
+    margin: 0 auto;
+}
+
+.contact-us {
+
+    width: 100%;
+    height: 700px;
+}
+
+.contact-us p {
+
+    color: #B5B6BE;
+    text-align: center;
+    font-family: "poiret one";
+    text-transform: capitalize;
+    padding: 10px 125px 125px 125px;
+    font-weight: bold;
+    font-size: 27px;
+
+}
+
+.contact-us .text-ar {
+
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+
+}
+
+.contact-us .text-ar textarea {
+
+        width: 50%;
+        padding: 10px;
+        background: none;
+        border: 1px solid #B5B6BE;
+        height: 295px;
+        float: right;
+        color: #B5B6BE;
+        font-size: 20px;
+        font-family: lora;
+        font-weight: bold;
+        text-transform: capitalize;
+}
+.contact-us .text-ar input {
+
+    display: block;
+    margin-bottom: 48px;
+    width: 44%;
+    padding: 20px;
+    float: left;
+    border: 1px solid #B5B6BE;
+    color: #B5B6BE;
+    font-size: 20px;
+    font-family: lora;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.contact-us .text-ar .submit {
+
+    float: right;
+    margin-top: 40px;
+    width: 180px;
+    background-color: #FFF8DC;
+}
+
+footer {
+
+    width: 100%;
+    height: 570px;
+    background-image: url(../images/mob-50.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+footer .color-o {
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.88);
+}
+footer .color-o h1 {
+
+    text-align: center;
+    color: #FFF;
+    font-family: "poiret one";
+    padding-top: 40px;
+    line-height: 80px;
+}
+
+footer .color-o p {
+
+    text-align: center;
+    color: #FFF;
+    font-family: "poiret one";
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+footer .color-o .container .intro {
+
+    width: 70%;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;  
+}
+
+footer .color-o .container .intro ul { list-style-type: none; padding: 0; }
+
+footer .color-o .container .intro li { display: inline; padding: 15px; font-size: 40px; }
+
+footer .color-o .container .intro .fa { color: #FFF; }
+
+footer .color-o .container .intro .icon {
+
+
+    height: 60px;
+    overflow: hidden;
+    padding: 6px;
+    margin: 49px auto;
+}
+
+footer .color-o .container .intro .icon .fa {
+
+    font-size: 24px;
+    color: #6D695B;
+    padding: 5px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #5A5749;
+    height: 40px;
+    text-align: center;
+}
+footer .color-o .container .intro .icon .fa:hover {
+
+    background-color: #54545D;
+    color: #D0C6A5;
+}
